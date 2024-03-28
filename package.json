@@ -1,0 +1,22 @@
+{
+  "name": "meshtastic-mqtt-discord-bridge",
+  "private": true,
+  "packageManager": "yarn@4.1.1",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.30",
+    "crypto": "^1.0.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "mqtt": "^5.5.0",
+    "protobufjs": "^7.2.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.5",
+    "nodemon": "^3.1.0"
+  }
+}
